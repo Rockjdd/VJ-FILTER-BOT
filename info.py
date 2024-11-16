@@ -66,7 +66,7 @@ else:
     SEC_FILE_DB_URI = environ.get('SEC_FILE_DB_URI', "mongodb+srv://7anzarul900:anzarul900@anzarul900.jj2cv.mongodb.net/?retryWrites=true&w=majority&appName=anzarul900") # This Db is for File Data Store When First Db Is Going To Be Full.
     
 DATABASE_NAME = environ.get('DATABASE_NAME', "anzarul900")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'anzarul900)
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'anzarul900')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
